@@ -39,6 +39,11 @@ h2 {
 
 .new-price {
     flex:1;
+    font-weight: bold; 
+    font-size: 30px; 
+    font-family: Fraunces; 
+    color: #0e4e10;
+    
 }
 
 .old-price {
@@ -164,5 +169,55 @@ button i {
         flex-direction: column; /* Stack children vertically */
         width: 100%;
     }
+ 
+    h1 {
+        font-family: Fraunces;
+        font-size: 30px;
+        line-height: 35px;
+        margin-top: 5px;
+        margin-bottom: 5px;
     
+    }
+
+    p {
+        font-size: 14px;
+        font-family: Montserrat;
+        color: rgb(168, 158, 158);
+        font-weight:500;
+        line-height: 20px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    span {
+        line-height: 30px;
+        
+    }
+
+    .button {
+        font-family: Montserrat;
+        font-weight: 650;
+        background-color: #1e7821; /* Green background */
+        border: none; /* Remove default border */
+        color: white; /* White text color */
+        padding: 10px 32px; /* Add padding */
+        text-align: center; /* Center the text */
+        text-decoration: white; /* Remove underline from text */
+        display: inline-block; /* Make the button inline */
+        font-size: 16px; /* Increase font size */
+        margin: 4px 2px; /* Add margin */
+        cursor: pointer; /* Change cursor to pointer */
+        border-radius: 8px; /* Rounded corners */
+        transition: background-color 0.3s; /* Smooth transition for hover effect */
+        
+    }
+
+    .new-price {
+        flex:1;
+        font-weight: bold; 
+        font-size: 25px; 
+        font-family: Fraunces; 
+        color: #0e4e10;
+        
+    }
 }
